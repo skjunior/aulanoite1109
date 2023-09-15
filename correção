@@ -1,0 +1,25 @@
+
+const animal = {
+    nome: "Leão",
+    carnivoro: true
+    }
+    if (animal.carnivoro) {
+    console.log(`${animal.nome} é um animal carnívoro.`)
+    } else {
+    console.log(`${animal.nome} não é um animal carnívoro.`)
+    }
+
+    let pokemons = prompt("Escolha um para iniciar: Bulbassauro, Squartle, Charmander.")
+switch (pokemons.toUpperCase()){
+    case 'BULBASSAURO':
+        console.log('Bulbassauro é um Pokemon do Tipo Planta e veneno');
+        break
+        case 'SQUARTLE':
+            console.log('Squartle é um Pokemon Do Tipo Água');
+            break
+            case 'CHARMANDER':
+                console.log('Charmander é um Pokemon do tipo Fogo');
+                break
+                default:
+                    console.log('Pokemon não encontrado.');
+}
